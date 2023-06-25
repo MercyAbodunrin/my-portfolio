@@ -1,0 +1,72 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+header{
+    background-color: black;
+    padding: 0px 100px;
+    height: 80px;
+}
+
+header p{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    word-spacing: 10px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+header ul{
+    float: right;
+    word-spacing: 50px;
+}
+header li{
+    display: inline-block;
+    font-size: 20px;
+    word-spacing: 50px;
+} 
+
+header li a{
+     color: white;
+    text-decoration: none ;
+    letter-spacing: 0.5px;
+}
+a:hover{
+  color:#ffb84d ;
+  transition: 0.5ms ease 0s;
+}
+section{
+padding: 30px;
+}
+h2{
+    margin-top: 10px;
+}
+form{
+    text-align: left;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 20%;
+    padding: 20px ;
+    margin-top: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #ccccb3;
+    color: black;
+    margin-top: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    tex
+    margin-top: 20px ;
+    height: 70px;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(./images/food.jpg);
+    background-size: cover;
+    align-self: center;
+   
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: o.4s ease 0s;
+
+}
+.image img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#content{
+    padding: 250px 50px;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+
+#content h1{
+    font-size: 70px;
+    color: white;
+}
+   
+#content p{
+    color: #f2f2f2;
+    font-size: 20px;
+}
+#search{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#search input{
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 120px;
+}
+#search button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#footer{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+#footer p{
+    color: black;
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+   text-align: center;
+}
